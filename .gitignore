@@ -1,0 +1,6 @@
+.env.test
+*.pyc
+/.venv
+/.idea
+/__pucache__
+.gitignore
