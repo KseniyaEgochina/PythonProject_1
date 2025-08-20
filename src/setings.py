@@ -16,4 +16,3 @@ class Setting(BaseSettings):
 
 settings = Setting()
 print(settings)
-

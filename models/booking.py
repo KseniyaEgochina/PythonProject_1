@@ -6,6 +6,7 @@ class BookingDates(BaseModel):
     checkin: str
     checkout: str
 
+
 class Booking(BaseModel):
     firstname: str
     lastname: str
@@ -16,6 +17,7 @@ class Booking(BaseModel):
 
     def build(self):
         return self.model_dump()
+
 
 class CreateBookingResponse(BaseModel):
     bookingid: int
